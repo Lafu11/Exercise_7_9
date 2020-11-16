@@ -5,7 +5,7 @@ class digits
 {
     static void Main()
     {
-        int OneDigit = 0, TwoDigits = 0, ThreeDigits = 0, MoreThanThree = 0;
+        int OneDigit = 0, TwoDigits = 0, ThreeDigits = 0, MoreThanThree = 0; // These variables work as counters.
         Console.Write("Insert a number: ");
         string CheckEnd = Console.ReadLine();
         while(CheckEnd != "end"){
